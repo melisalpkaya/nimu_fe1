@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  .dark-background {
+    background-color: black;
+    color: white;
+  }
+  
+  .light-background {
+    background-color: white;
+    color: black;
+  }
+  
+
+  .forgot-psw{
+    text-align: center; 
+    margin-bottom: 20px;
+  }
+
+.guest-link {
+  text-align: center; 
+  display: block; 
+  margin:  auto; 
+  color: #00C2CB; 
+  text-decoration: none; 
+  font-size: 1rem; 
+}
+
+.footer {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  width: 100%; 
+  background-color: #000; 
+  color: white; 
+}
+
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  
+}
+
+.footer p {
+  text-align: center; 
+  font-size: 15px;
+  width: 295px;
+  font-size: 0.9rem; 
+  position: absolute; 
+  bottom: 15px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+}

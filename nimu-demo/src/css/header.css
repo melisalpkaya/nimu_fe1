@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    align-items: center; 
+    padding: 20px; 
+    justify-content: space-between; 
+}
+
+#header-logo1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%; 
+    height: auto; 
+    min-width: 149px; 
+    min-height: 123px; 
+}
+
+#header-logo2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10%; 
+    height: auto; 
+    min-width: 59px; 
+    min-height: 67px; 
+    margin-left: 90px; 
+}
+
+
+@media (max-width: 768px) {
+    #header-logo1 {
+        width: 25%; /* Küçük ekranlar için daha büyük */
+    }
+    #header-logo2 {
+        width: 15%; /* Küçük ekranlar için daha büyük */
+        margin-left: 40px; /* Küçük ekranlar için daha yakın */
+    }
+}
+

@@ -1,0 +1,39 @@
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+.tabs button{
+    position: relative;
+    margin: 0 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #000;
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px 20px;
+}  
+  .tabs button.active {
+    
+    color: #fff;
+}
+  
+.form-container {
+    padding: 20px;
+}
+#marker{
+    position: absolute;
+    left: 68px;
+    height: 1px;
+    width: 0;
+    background: white;
+    bottom: -8px;
+    transition: 0.5s;
+    border-radius: 4px;
+
+} 
+
